@@ -60,14 +60,6 @@
                                     <rect key="frame" x="204" y="165" width="118" height="31"/>
                                 </variation>
                             </slider>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="beA-KQ-E4x">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="253" width="240" height="240"/>
-                                </variation>
-                            </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="j2T-o4-qnF">
                                 <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
                                 <animations/>
@@ -75,6 +67,14 @@
                                     <rect key="frame" x="204" y="75" width="118" height="31"/>
                                 </variation>
                             </slider>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WwE-mu-vWR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="81" y="241" width="239" height="239"/>
+                                </variation>
+                            </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -86,8 +86,8 @@
                                 <exclude reference="TML-QC-qEi"/>
                                 <exclude reference="PYL-tm-V52"/>
                                 <exclude reference="QYQ-j1-x4S"/>
-                                <exclude reference="beA-KQ-E4x"/>
                                 <exclude reference="j2T-o4-qnF"/>
+                                <exclude reference="WwE-mu-vWR"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -97,11 +97,14 @@
                                 <include reference="TML-QC-qEi"/>
                                 <include reference="PYL-tm-V52"/>
                                 <include reference="QYQ-j1-x4S"/>
-                                <include reference="beA-KQ-E4x"/>
                                 <include reference="j2T-o4-qnF"/>
+                                <include reference="WwE-mu-vWR"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="colorView" destination="WwE-mu-vWR" id="Cxg-NN-pfw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
