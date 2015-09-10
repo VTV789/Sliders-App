@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var colorView: UIView!
     
+    @IBOutlet weak var redControll: UISlider!
+    @IBOutlet weak var greenController: UISlider!
+    @IBOutlet weak var blueController: UISlider!
     
     
     override func viewDidLoad() {

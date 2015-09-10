@@ -103,7 +103,11 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="blueController" destination="QYQ-j1-x4S" id="oe5-lg-nzd"/>
                         <outlet property="colorView" destination="WwE-mu-vWR" id="Cxg-NN-pfw"/>
+                        <outlet property="greenController" destination="PYL-tm-V52" id="XpZ-Np-Nhf"/>
+                        <outlet property="reControll" destination="j2T-o4-qnF" id="HfM-Gq-u1H"/>
+                        <outlet property="redControll" destination="PYL-tm-V52" id="wWA-SW-mao"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
