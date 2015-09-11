@@ -116,6 +116,7 @@
                         <outlet property="colorView" destination="WwE-mu-vWR" id="a8R-Av-06v"/>
                         <outlet property="greenControl" destination="PYL-tm-V52" id="JWu-dF-tFL"/>
                         <outlet property="redControl" destination="j2T-o4-qnF" id="NrB-jk-bfF"/>
+                        <outlet property="view" destination="kh9-bI-dsS" id="J6H-vx-qMw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
