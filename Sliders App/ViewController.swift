@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var colorView: UIView!
     
+    // Setting Sliders
     @IBOutlet weak var redControl: UISlider!
     @IBOutlet weak var greenControl: UISlider!
     @IBOutlet weak var blueControl: UISlider!
@@ -23,6 +24,7 @@ class ViewController: UIViewController {
        
     }
     
+    // accessing properties
     @IBAction func changeColorComponent() {
         let r: CGFloat = CGFloat(self.redControl.value)
         let g: CGFloat = CGFloat(self.greenControl.value)
